@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+}
+
+section{
+    width: 100%;
+    min-height: 90vh;
+    background-repeat: no-repeat;         /*  esses 3 proximos itens sao responsaveis pelo efeito scroll */
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+
+section:nth-of-type(1){
+    background-image: url("foto2.jpg");
+}
+
+section:nth-of-type(3){
+    background-image: url("header.jpg");
+
+}
+
+section:nth-of-type(5){
+    background-image: url("foto.jpg");
+}
+
+section p{
+    font-size: 32px;
+    color:red;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 2%;
+}
